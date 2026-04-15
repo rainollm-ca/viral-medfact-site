@@ -1,0 +1,7 @@
+services:
+  app:
+    image: ${ITD}
+    container_name: viral-medfact
+    ports:
+      - "3000:3000"
+    restart: always
